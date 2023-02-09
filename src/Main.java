@@ -75,7 +75,6 @@ public class Main {
         checkResult.apply(57);
         checkResult.apply(6);
     }
-
     public static <T, U> Function<T, U> ternaryOperator(
             Predicate<? super T> condition,
             Function<? super T, ? extends U> ifTrue,
